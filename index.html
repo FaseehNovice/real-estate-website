@@ -23,7 +23,7 @@
 
     </head>
   <body>
-    <header class="header" data-header>
+    <header class="header active" data-header>
       <div class="container">
         <a href="#" class="logo">
           <img src="./assets/images/logo.png" width="190" height="28" alt="Wealthome">
@@ -51,12 +51,16 @@
         
         <div class="navbar-wrapper">
           <a href="#" class="btn-link label-medium">Login</a>
-          <a href="#" class="btn btn-fill label-medium">Get Started</a>
+          <a href="#" class="btn btn-outline label-medium">Get Started</a>
         </div>
 
         </nav>
 
-        <button class="nav-toggle-btn icon-btn" aria-label="toggle navbar" data-nav-toggle></button>
+        <button class="nav-toggle-btn icon-btn" aria-label="toggle navbar" data-nav-toggler>
+          <span class="material-symbols-rounded open">menu</span>
+          <span class="material-symbols-rounded closed">close</span>
+        </button>
+        
       </div>
     </header>
   </body>
